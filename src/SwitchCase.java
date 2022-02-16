@@ -31,6 +31,8 @@ public class SwitchCase {
             case "Niedziela":
                 System.out.println("Witaj "+imie+"! Dziś jest "+dzienTyg+"!");
                 break;
+            default:
+                System.out.println("Podałeś dzień tygodnia z małej litery.");
         }
 
     }
