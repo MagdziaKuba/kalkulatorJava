@@ -14,7 +14,7 @@ public class Tablica {
         int[] tablica=new int[] {1,3,5};
         int[] odwroconaTablica=new int[3];
         int z=2;
-        for(int j=0;j<3;j++){
+        for(int j=0;j<tablica.length;j++){
             //System.out.println("z:"+z);
             //System.out.println("j:"+j);
             odwroconaTablica[j]=tablica[z];
