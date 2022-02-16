@@ -12,7 +12,7 @@ public class Tablica {
 
         //odwróć elementy tabliczy np [1,2,3] -> [3,2,1]
         int[] tablica=new int[] {1,3,5};
-        int[] odwroconaTablica=new int[4];
+        int[] odwroconaTablica=new int[3];
         int z=2;
         for(int j=0;j<3;j++){
             //System.out.println("z:"+z);
