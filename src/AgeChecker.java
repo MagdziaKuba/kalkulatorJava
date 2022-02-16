@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class AgeChecker {
     public static void main(String[] args) {
+
         System.out.println("Podaj swój wiek");
         Scanner scanner = new Scanner(System.in);
         int wiek= scanner.nextInt();
