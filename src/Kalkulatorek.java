@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class kalkulatorek {
+public class Kalkulatorek {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj pierwszą liczbę");
