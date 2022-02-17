@@ -18,6 +18,13 @@ public class Auto {
         this.przebieg=przebieg;
     }
 
+    public Auto(String marka,String model){
+        this.marka= marka;
+        this.model=model;
+        rok=0;
+        przebieg=0;
+    }
+
     //metody
     public void jedz(){
         System.out.println("Jedzie!");
