@@ -6,6 +6,8 @@ public class MetodyTest {
         int result2=result *2;
         System.out.println("result 1: "+result);
         System.out.println("result 2: "+result2);
+        metody.policzWynikParam(5);
+        metody.add(2,5);
 
     }
 }
