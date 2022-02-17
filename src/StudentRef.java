@@ -4,6 +4,8 @@ public class StudentRef {
     public String nick;
     public String email;
     public int numerIndeksu;
+    //pole statyczne
+    public static String nazwaUczelni="UMCS";
 
     public void przedstawSie(){
         System.out.println("Nazywam się "+imie+" "+nazwisko);

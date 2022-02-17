@@ -6,12 +6,19 @@ public class StudentTest {
     *
     * Przejdz przez studentów w tablicy i wywołaj wszystkie 4 metody.*/
     public static void main(String[] args) {
+        //pole statyczne:
+        String uczelnia=StudentRef.nazwaUczelni;
+        System.out.println("Uczelnia "+uczelnia);
+
         StudentRef student1=new StudentRef();
         student1.imie="Maria";
         student1.nazwisko="Potocka";
         student1.nick="MPot";
         student1.email="mp@gmail.com";
         student1.numerIndeksu=1223;
+        
+        String uczelniaStudenta1=student1.nazwaUczelni;
+        System.out.println("uczelniaStudenta1 "+uczelniaStudenta1);
 
         /*student1.przedstawSie();
         student1.zalogujSie();
