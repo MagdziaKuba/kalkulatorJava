@@ -1,13 +1,18 @@
 public class AutoTest {
     public static void main(String[] args) {
         Auto mercedes=new Auto();
-        mercedes.marka= "Mercedes";
+        Auto opel=new Auto("Mercedes","Klasa s",1992,1230);
+        /*mercedes.marka= "Mercedes";
         mercedes.model="Klasa s";
         mercedes.rok=1992;
-        mercedes.przebieg=1230;
+        mercedes.przebieg=1230;*/
 
         mercedes.jedz();
         mercedes.hamuj();
         mercedes.info();
+
+        opel.jedz();
+        opel.hamuj();
+        opel.info();
     }
 }
