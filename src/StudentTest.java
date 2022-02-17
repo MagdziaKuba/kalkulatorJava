@@ -10,13 +10,19 @@ public class StudentTest {
         String uczelnia=StudentRef.nazwaUczelni;
         System.out.println("Uczelnia "+uczelnia);
 
+        //wywołanie metody statycznej
+        StudentRef.infoUczelnia();
+
         StudentRef student1=new StudentRef();
+        //wywołanie metody statycznej
+        student1.infoUczelnia();
+
         student1.imie="Maria";
         student1.nazwisko="Potocka";
         student1.nick="MPot";
         student1.email="mp@gmail.com";
         student1.numerIndeksu=1223;
-        
+
         String uczelniaStudenta1=student1.nazwaUczelni;
         System.out.println("uczelniaStudenta1 "+uczelniaStudenta1);
 

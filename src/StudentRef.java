@@ -19,4 +19,9 @@ public class StudentRef {
     public void podajEmail(){
         System.out.println("Mój email to:  "+email);
     }
+
+    //metoda statyczna
+    public static void infoUczelnia(){
+        System.out.println("Moja uczelnia to UMCS.");
+    }
 }
