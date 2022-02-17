@@ -5,11 +5,16 @@ public class User {
     public User(){
         System.out.println("Wykonał się konstruktor");
     }
-    public User(String user){
-        System.out.println("Wykonał się konstruktor dla "+user);
-        username=user;
+    public User(String username){
+        System.out.println("Wykonał się konstruktor dla "+username);
+        this.username=username;
+        password="nie powiem";
+    }
+    public User(String username, String pass){
+        this.username=username;
+        password=pass;
     }
     public void sayHello(){
-        System.out.println("Hello "+username);
+        System.out.println("Hello "+username+" hasełko moje to "+password);
     }
 }
