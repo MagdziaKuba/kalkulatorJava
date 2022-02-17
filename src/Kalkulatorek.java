@@ -7,7 +7,15 @@ public class Kalkulatorek {
         int pierwszaLiczba = scanner.nextInt();
         System.out.println("Podaj drugą liczbę");
         int drugaLiczba = scanner.nextInt();
-        int dodawanie, odejmowanie,mnozenie ,dzielenie, modulo;
+
+        DziałaniaMatematyczne dzialanie=new DziałaniaMatematyczne();
+        dzialanie.add(pierwszaLiczba,drugaLiczba);
+        dzialanie.subtraction(pierwszaLiczba,drugaLiczba);
+        dzialanie.multiplication(pierwszaLiczba,drugaLiczba);
+        dzialanie.division(pierwszaLiczba,drugaLiczba);
+        dzialanie.mod(pierwszaLiczba,drugaLiczba);
+
+        /*int dodawanie, odejmowanie,mnozenie ,dzielenie, modulo;
         dodawanie=pierwszaLiczba+drugaLiczba;
         odejmowanie=pierwszaLiczba-drugaLiczba;
         mnozenie=pierwszaLiczba*drugaLiczba;
@@ -28,7 +36,7 @@ public class Kalkulatorek {
         }
 
         System.out.println("Wynik dodawania: "+ dodawanie+ ", wynik odejmowania: "+ odejmowanie +"wynik mnozeniato:"+mnozenie+", wynik dzielenia to :"+ dzielenie+", wynik modulo to :"+modulo);
-
+*/
 
     }
 }
