@@ -10,6 +10,11 @@ public class Footballer extends Person{
         System.out.println("Jestem konstruktorem Footballer");
     }
 
+    //nadpisywanie metody z Person
+    public void eat(){
+        System.out.println("Footballer je.");
+    }
+
     public void playFootball(){
         System.out.println("Gracz gra.");
     }
