@@ -5,9 +5,11 @@ public class AppTest {
         AndroidApp telefon2=new AndroidApp();
         telefon2.name="Androndzio";
         telefon2.runAndroidApp();
+        telefon2.appInfo();
 
         IphoneApp jablko=new IphoneApp("Jabłko");
         jablko.runIphoneApp();
+        jablko.appInfo();
 
     }
 }
