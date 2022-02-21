@@ -1,4 +1,6 @@
-public class FirefoxDriver implements WebDriver{
+package drivers;
+
+public class FirefoxDriver implements WebDriver {
     @Override
     public void get() {
         System.out.println("Firefox otwiera przeglądarkę.");
