@@ -5,7 +5,7 @@ import identifiers.first.Parent;
 public class Child extends Parent {
     //klasa potomna w INNEJ paczce nie ma dostępu do private
     //oraz brak dostępu do default
-    public void testId(){
+    public void testId() {
         System.out.println(first);
         //brak dostępu do default
         //System.out.println(second);
@@ -15,5 +15,6 @@ public class Child extends Parent {
         //brak dostępu do default
         //secondMetod();
         thirdMetod();
+    }
 
 }
