@@ -20,6 +20,11 @@ public class SetyTest {
         vege.addAll(fruits);
         System.out.println(vege.size());
 
+        //przechodzenie przez zbiór
+        for(String fruit:fruits){
+            System.out.println(fruit);
+        }
+
 
     }
 }
